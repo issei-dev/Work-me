@@ -1,0 +1,225 @@
+<!-- File: lifestyle.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="自分を楽しむ">
+  <title>自分を楽しむ｜WORK &amp; ME</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">WORK <span>&amp;</span> ME</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        メニュー
+      </button>
+      <nav class="navigation" id="navigation" aria-label="メインメニュー">
+        
+          <a href="people.html">
+            人を知る
+          </a>
+        
+
+          <a href="work.html">
+            働き方を知る
+          </a>
+        
+
+          <a href="companies.html">
+            会社を知る
+          </a>
+        
+
+          <a href="lifestyle.html" aria-current='true'>
+            自分を楽しむ
+          </a>
+        
+
+          <a href="editorial.html">
+            編集部
+          </a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main id="main" tabindex="-1">
+      
+      <header class="page-heading">
+        <p class="eyebrow">LIFESTYLE</p>
+        <h1>自分を楽しむ</h1>
+        <p class="lead">美容、運動、インテリア。自分のための選択を。</p>
+      </header>
+
+      <div class="search">
+        <label for="search">キーワードで探す</label>
+        <input
+          id="search"
+          type="search"
+          placeholder="名前、会社、職種など"
+          autocomplete="off"
+        >
+      </div>
+
+      <p class="search-status" id="search-status" aria-live="polite"></p>
+      <div class="grid">
+    <article class="card" data-search="Lumière Hair Tokyo 美容室 髪を整えて、私らしい一歩を。">
+      <a href="lumiere.html">
+        
+    <figure class="photo">
+      <div class="photo-box">
+        <img
+          src="assets/images/lumiere-thumbnail.jpg"
+          alt="Lumière Hair Tokyoの紹介"
+          loading="lazy"
+          decoding="async"
+          data-photo
+          hidden
+        >
+        <div class="photo-placeholder" aria-hidden="true">WORK & ME</div>
+      </div>
+      
+    </figure>
+    
+        <p class="card-meta">
+          <span class="pr">広告</span>美容室
+        </p>
+        <h3>髪を整えて、私らしい一歩を。</h3>
+        <p>Lumière Hair Tokyo</p>
+      </a>
+    </article>
+    
+    <article class="card" data-search="PureFit Wellness オンラインフィットネス 忙しい毎日でも、理想の身体へ。">
+      <a href="purefit.html">
+        
+    <figure class="photo">
+      <div class="photo-box">
+        <img
+          src="assets/images/purefit-thumbnail.jpg"
+          alt="PureFit Wellnessの紹介"
+          loading="lazy"
+          decoding="async"
+          data-photo
+          hidden
+        >
+        <div class="photo-placeholder" aria-hidden="true">WORK & ME</div>
+      </div>
+      
+    </figure>
+    
+        <p class="card-meta">
+          <span class="pr">広告</span>オンラインフィットネス
+        </p>
+        <h3>忙しい毎日でも、理想の身体へ。</h3>
+        <p>PureFit Wellness</p>
+      </a>
+    </article>
+    
+    <article class="card" data-search="Casa Style Interior インテリア・家具 新しいキャリア、新しい暮らし。">
+      <a href="casa.html">
+        
+    <figure class="photo">
+      <div class="photo-box">
+        <img
+          src="assets/images/casa-thumbnail.jpg"
+          alt="Casa Style Interiorの紹介"
+          loading="lazy"
+          decoding="async"
+          data-photo
+          hidden
+        >
+        <div class="photo-placeholder" aria-hidden="true">WORK & ME</div>
+      </div>
+      
+    </figure>
+    
+        <p class="card-meta">
+          <span class="pr">広告</span>インテリア・家具
+        </p>
+        <h3>新しいキャリア、新しい暮らし。</h3>
+        <p>Casa Style Interior</p>
+      </a>
+    </article>
+    
+      <article
+        class="card"
+        data-search="休息 暮らし セルフケア 何もしない時間"
+      >
+        <a href="story-rest.html">
+          
+    <figure class="photo">
+      <div class="photo-box">
+        <img
+          src="assets/images/rest.jpg"
+          alt="静かな時間を過ごす部屋"
+          loading="lazy"
+          decoding="async"
+          data-photo
+          hidden
+        >
+        <div class="photo-placeholder" aria-hidden="true">WORK & ME</div>
+      </div>
+      
+    </figure>
+    
+          <p class="card-meta">セルフケア</p>
+          <h3>何もしない時間も、予定に入れてみる。</h3>
+          <p>忙しい日の、小さな休息のヒント。</p>
+        </a>
+      </article>
+    </div>
+    
+    </main>
+
+    <aside class="ad-rail" id="advertisements" aria-label="画像広告">
+      <p class="ad-label">ADVERTISEMENT / 広告</p>
+      <a class="ad-link" id="ad-link" href="lumiere.html">
+        <img
+          class="ad-image"
+          id="ad-image"
+          src="assets/images/lumiere-ad.jpg"
+          alt="広告：Lumière Hair Tokyo。紹介ページを見る"
+          width="400"
+          height="400"
+        >
+      </a>
+      <p class="ad-caption" id="ad-caption">髪を整えて、私らしい一歩を。</p>
+      <div class="ad-controls">
+        <span id="ad-count">1 / 3</span>
+        <div class="ad-buttons">
+          <button id="ad-next" type="button" aria-label="次の広告">→</button>
+          <button id="ad-toggle" type="button">停止</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="logo" href="index.html">WORK <span>&amp;</span> ME</a>
+        <p class="copyright">運営：株式会社ルピナス</p>
+      </div>
+      <nav class="footer-nav" aria-label="サイト情報">
+        <a href="about.html">運営会社</a>
+        <a href="editorial.html">編集部</a>
+        <a href="contact.html">お問い合わせ</a>
+        <a href="privacy.html">プライバシー</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
